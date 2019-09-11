@@ -1,3 +1,14 @@
+/*
+QuizBox, the code for the UofL IEEE Recruitment Quiz-Show Device
+Project developed by UofL IEEE, Software developed by Kaleb Byrum alongside Nathan Hodges
+Check us out at ieee.louisville.edu!
+
+From Louisville with <3
+
+Last update: September 10th, 2019
+*/
+
+
 
 // include the library code:
 #include <LiquidCrystal.h>
