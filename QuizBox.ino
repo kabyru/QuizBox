@@ -5,7 +5,7 @@ Check us out at ieee.louisville.edu!
 
 From Louisville with <3
 
-Last update: September 10th, 2019
+Last update: September 11th, 2019, increased the delay of the scrolling text. Thanks Mark Allen!
 */
 
 
@@ -367,7 +367,7 @@ void loop() {
                                 lcd.print(questionEightAns);
                                 for (int positionCounter = 0; positionCounter < questionEightAns.length(); positionCounter++) {
                                   lcd.scrollDisplayLeft();
-                                  delay(150);
+                                  delay(400);
                                 }
                                 lcd.clear();
                                 lcd.home();
@@ -381,7 +381,7 @@ void loop() {
                             lcd.print(questionSevenAns);
                             for (int positionCounter = 0; positionCounter < questionSevenAns.length(); positionCounter++) {
                               lcd.scrollDisplayLeft();
-                              delay(150);
+                              delay(400);
                             }
                             lcd.clear();
                             lcd.home();
@@ -403,7 +403,7 @@ void loop() {
                         lcd.print(questionSixAns);
                         for (int positionCounter = 0; positionCounter < questionSixAns.length(); positionCounter++) {
                           lcd.scrollDisplayLeft();
-                          delay(150);
+                          delay(400);
                         }
                         lcd.clear();
                         lcd.home();
@@ -417,7 +417,7 @@ void loop() {
                     lcd.print(questionFiveAns);
                     for (int positionCounter = 0; positionCounter < questionFiveAns.length() + 6; positionCounter++) {
                       lcd.scrollDisplayLeft();
-                      delay(150);
+                      delay(400);
                     }
                     lcd.clear();
                     lcd.home();
@@ -431,7 +431,7 @@ void loop() {
                 lcd.print(questionFourAns);
                 for (int positionCounter = 0; positionCounter < questionFourAns.length() + 6; positionCounter++) {
                   lcd.scrollDisplayLeft();
-                  delay(150);
+                  delay(400);
                 }
                 lcd.clear();
                 lcd.home();
@@ -446,7 +446,7 @@ void loop() {
             lcd.print(questionThreeAns);
             for (int positionCounter = 0; positionCounter < questionThreeAns.length() + 6; positionCounter++) {
               lcd.scrollDisplayLeft();
-              delay(150);
+              delay(400);
             }
             lcd.clear();
             lcd.home();
@@ -480,7 +480,7 @@ void loop() {
       // scroll one position left:
       lcd.scrollDisplayLeft();
       // wait a bit:
-      delay(150);
+      delay(400);
       }
       lcd.clear();
       lcd.home();
@@ -524,7 +524,7 @@ void loop() {
     // scroll one position left:
     lcd.scrollDisplayLeft();
     // wait a bit:
-    delay(150);
+    delay(400);
   }
   lcd.clear();
   lcd.home();
