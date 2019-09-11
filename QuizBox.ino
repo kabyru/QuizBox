@@ -128,7 +128,7 @@ void loop() {
             lcd.home();
             lcd.clear();
             String questionFour = "What disciplines of Engineering are welcome in IEEE?";
-            String questionFourAns = "A.Electrical B.Biomedical C.Computer D.All of them!";
+            String questionFourAns = "A.Elec B.Biomed C.Comp D.All!";
             while(true)
             {
               buttonStateOne = digitalRead(choiceOne);
